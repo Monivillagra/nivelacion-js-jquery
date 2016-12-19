@@ -4,12 +4,13 @@ $(document).ready( function(){
 	renderHighlightedRecipes(recipesArray);
 	$(document).ready(function(){ 
    		$('#ocultar').hide(function(){
-      		$('#jsBack').onload();
+      		$('#jsBack').toggle();
    });
 });
 
+
 });
-// 
+
 
 
 /*
